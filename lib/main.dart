@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-
+import 'package:world_time_app/pages/home.dart';
 void main() {
-  runApp(MaterialApp(
-    
+  runApp(const MaterialApp(
+    home: SafeArea(child: Home()),
   ));
 }
