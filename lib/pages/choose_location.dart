@@ -8,10 +8,21 @@ class ChooseLocation extends StatefulWidget {
 }
 
 class _ChooseLocationState extends State<ChooseLocation> {
+
+  
+  int number = 0;
+
+
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Text("This is choose location page...")
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blueAccent,
+        title: Text('Edit Location'),
+        centerTitle: true,
+        
+      ),
+     
     );
   }
 }
